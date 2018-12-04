@@ -7,8 +7,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "appcenter": "1.10.0",
+    "appcenter-analytics": "1.10.0",
+    "appcenter-crashes": "1.10.0",
     "react": "16.6.1",
-    "react-native": "0.57.7"
+    "react-native": "0.57.7",
+    "react-native-code-push": "^5.4.2"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
