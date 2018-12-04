@@ -9,19 +9,18 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 import Codepush from 'react-native-code-push'
-
-type Props = {};
+import CodePush from 'react-native-code-push';
 
  
-
 export default class App extends Component {
 
-codePushSync(){
-  Codepush.sync({
-    updateDialog : true,
-    installMode : Codepush.installMode.IMMEDIATE
-  })
-}
+  codePushSync(){
+    CodePush.sync({
+      updateDialog: true,
+      installMode: CodePush.InstallMode.IMMEDIATE
+    })
+  }
+  
 
   render() {
     return (
