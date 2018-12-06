@@ -6,20 +6,21 @@
  * @flow
  */
 
+'use strict';
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
-import codePush from "react-native-code-push";
+import codepush from 'react-native-code-push';
 
 
 export default class App extends Component {
 
-  codePushSync(){
-    // codePush.sync({
-    //   updateDialog: true,
-    //   installMode: codePush.InstallMode.IMMEDIATE
-    // })
-  }
-  
+  codePushSync() {
+    codepush.sync({
+      updateDialog: true,
+      installMode: codepush.InstallMode.IMMEDIATE
+    });
+  } 
+
 
   render() {
     return (
