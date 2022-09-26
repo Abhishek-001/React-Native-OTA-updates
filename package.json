@@ -12,7 +12,7 @@
     "appcenter-crashes": "1.10.0",
     "react": "16.6.1",
     "react-native": "0.57.7",
-    "react-native-code-push": "^5.4.2"
+    "react-native-code-push": "^5.7.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
